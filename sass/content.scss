@@ -1,0 +1,34 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 55rem);
+  grid-gap: 5rem;
+
+  font-size: 1.5rem;
+  line-height: 1.7;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__right {
+    .h3 {
+      text-align: right;
+    }
+  }
+
+  &__video {
+    width: 100%;
+    iframe {
+      border-radius: 1rem;
+      width: 100%;
+      height: 30rem;
+      border: none;
+      background-image: linear-gradient(rgba(transparent, .7), rgba(transparent, .7));
+    }
+  }
+
+  &__heading {
+    text-align: right;
+  }
+}

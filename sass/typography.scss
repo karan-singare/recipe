@@ -1,0 +1,24 @@
+.h3 {
+  margin: 2rem 0;
+}
+.heading {
+  &__primary {
+    font-size: 4rem;
+  }
+
+  &__secondary {
+    color: rgba(154, 150, 166, 0.78);
+  }
+}
+
+.btn {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 5px;
+}

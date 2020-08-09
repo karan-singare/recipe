@@ -1,0 +1,21 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 55rem);
+  grid-gap: 5rem;
+  font-size: 1.5rem;
+  line-height: 1.7; }
+  .content__left {
+    display: flex;
+    flex-direction: column; }
+  .content__right .h3 {
+    text-align: right; }
+  .content__video {
+    width: 100%; }
+    .content__video iframe {
+      border-radius: 1rem;
+      width: 100%;
+      height: 30rem;
+      border: none;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); }
+  .content__heading {
+    text-align: right; }

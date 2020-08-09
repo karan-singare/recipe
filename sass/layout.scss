@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 118rem;
+  margin-top: 5rem;
+}
+
+.recipe-container {
+  margin: 0 auto;
+  max-width: 118rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 22rem);
+  grid-gap: 2rem;
+}
+
+.header {
+  &__category {
+    font-size: 2rem;
+    text-align: right;
+  }
+  &__title {
+    text-align: right;
+    margin: 2rem 0;
+    font-size: 5rem;
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    label {
+      cursor: pointer;
+    }
+    input {
+      width: 80%;
+      padding: 1rem 1.5rem;
+      border: none;
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 1rem 1rem -1rem rgba(5, 5, 5, 0.59);
+      }
+    }
+  }
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.84);
+  color: rgba(166, 173, 167, 0.57);
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
