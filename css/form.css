@@ -1,0 +1,14 @@
+.form {
+  margin-top: 5rem;
+  border-top: 2px solid rgba(153, 159, 154, 0.8);
+  width: 100%; }
+  .form__group {
+    width: 100%; }
+  .form__label {
+    font-size: 2rem;
+    margin: 3rem 0; }
+  .form__input {
+    display: block;
+    width: 92%;
+    height: 30rem;
+    padding: 1rem 2rem; }

@@ -17,6 +17,10 @@
   border: 1px solid #fff;
   padding: 5px;
   border-radius: 5px; }
+  .btn--block {
+    width: 100%;
+    background: rgba(12, 13, 12, 0.8);
+    padding: 1rem 0; }
 
 * {
   margin: 0;
@@ -138,3 +142,18 @@ html {
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); }
   .content__heading {
     text-align: right; }
+
+.form {
+  margin-top: 5rem;
+  border-top: 2px solid rgba(153, 159, 154, 0.8);
+  width: 100%; }
+  .form__group {
+    width: 100%; }
+  .form__label {
+    font-size: 2rem;
+    margin: 3rem 0; }
+  .form__input {
+    display: block;
+    width: 92%;
+    height: 30rem;
+    padding: 1rem 2rem; }
