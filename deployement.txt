@@ -1,0 +1,2 @@
+Deployment URL: https://karan-singare.github.io/recipe/
+Source Code: https://github.com/karan-singare/recipe.git
